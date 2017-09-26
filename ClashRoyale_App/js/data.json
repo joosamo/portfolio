@@ -1,0 +1,242 @@
+[
+  {
+    "name":"Archers",
+    "combo": "ArrowsCard",
+    "cname": "Arrows",
+    "rare" : "Common",
+    "shortname":"Archers",
+    "reknown":"Common",
+    "bio": "A pair of unarmored ranged attackers. They'll help you with ground and air unit attacks, but you're on your own with coloring your hair.",
+    "stat": [ "Hit Speed: 1.2 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: 5.5 radius",
+              "Target: Air & Ground",
+              "Elixar Cost: 3"
+            ]
+  },
+  {
+    "name":"Baby Dragon",
+    "combo": "ElixirCollectorCard",
+    "cname": "Elixir Collector",
+    "rare" : "Epic",
+    "shortname":"Baby_Dragon",
+    "reknown":"Epic",
+    "bio":"Flying troops that deals area damage. Baby dragons hatch cute, hungry, and ready for a barbecue.",
+    "stat": [ "Hit Speed: 1.8 sec",
+              "Speed: Fast",
+              "Deploy Time: 1 sec",
+              "Range: 3.5 radius",
+              "Target: Air & Ground",
+              "Elixar Cost: 4"
+            ] 
+  },
+  {
+    "name":"Barbarians",
+    "combo": "InfernoTowerCard",
+    "cname": "InfernoTower",
+    "rare" : "rare",
+    "shortname":"Barbarians",
+    "reknown":"Common",
+    "bio":"A horde of swordsmen with mean mustaches and even meaner tempers.",
+    "stat": [ "Hit Speed: 1.5 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Ground",
+              "Elixar Cost: 5"
+            ] 
+  },
+  {
+    "name":"Bomber",
+    "combo": "FireballCard",
+    "cname": "Fireball",
+    "rare" : "rare",
+    "shortname":"Bomber",
+    "reknown":"Common",
+    "bio":"Small, lightly protected skeleton that throws bombs. Deals damage that can wipe out a swarm of enemies.",
+    "stat": [ "Hit Speed: 1.9 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: 5 radius",
+              "Target: Ground",
+              "Elixar Cost: 3"
+            ] 
+  },
+  {
+    "name":"Dark Prince",
+    "combo": "FreezeCard",
+    "cname": "Freeze",
+    "rare" : "Epic",
+    "shortname":"Dark_Prince",
+    "reknown":"Epic",
+    "bio":"Dealing area damage with each swing and double after charging, the Dark Prince is a formidable fighter. To harm his squishy core, break his shield first.",
+    "stat": [ "Hit Speed: 1.5 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Ground",
+              "Elixar Cost: 4"
+            ] 
+  },
+  {
+    "name":"Giant",
+    "combo": "GoblinBarrelCard",
+    "cname": "Goblin Barrel",
+    "rare" : "Epic",
+    "shortname":"Giant",
+    "reknown":"Rare",
+    "bio":"Slow but durable, only attacks buildings. A real one-man wrecking crew!",
+    "stat": [ "Hit Speed: 1.5 sec",
+              "Speed: Slow",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Building",
+              "Elixar Cost: 5"
+            ] 
+  },
+  {
+    "name":"Goblins",
+    "combo": "LightningCard",
+    "cname": "Lightning",
+    "rare" : "Epic",
+    "shortname":"Goblins",
+    "reknown":"Common",
+    "bio":"Three fast, unarmored melee attackers. Small, fast, green and mean!",
+    "stat": [ "Hit Speed: 1.1 sec",
+              "Speed: Very Fast",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Ground",
+              "Elixar Cost: 2"
+            ] 
+  },
+  {
+    "name":"Hog Rider",
+    "combo": "MirrorCard",
+    "cname": "Mirror",
+    "rare" : "Epic",
+    "shortname":"Hog_Rider",
+    "reknown":"Rare",
+    "bio":"Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of \"Hog Riderrrrr\" all the way through the arena doors.",
+    "stat": [ "Hit Speed: 1.5 sec",
+              "Speed: Very Fasy",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Building",
+              "Elixar Cost: 4"
+            ] 
+  },
+  {
+    "name":"Ice Wizard",
+    "combo": "PoisonCard",
+    "cname": "Poison",
+    "rare" : "Epic",
+    "shortname":"Ice_Wizard",
+    "reknown":"Legendary",
+    "bio":"This chill caster hails from the far North. He shoots ice shards at enemies, slowing down their movement and attack speed.",
+    "stat": [ "Hit Speed: 1.2 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: 6 radius",
+              "Target: Air & Ground",
+              "Elixar Cost: 3"
+            ] 
+  },
+  {
+    "name":"Knight",
+    "combo": "MortarCard",
+    "cname": "Mortar",
+    "rare" : "Common",
+    "shortname":"Knight",
+    "reknown":"Common",
+    "bio":"A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
+    "stat": [ "Hit Speed: 1.1 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Ground",
+              "Elixar Cost: 3"
+            ] 
+  },
+  {
+    "name":"Musketeer",
+    "combo": "RageCard",
+    "cname": "Rage",
+    "rare" : "Epic",
+    "shortname":"Musketeer",
+    "reknown":"Rare",
+    "bio":"Don't be fooled by her delicately coiffed hair, the musketeer is a mean shot with her trusty boomstick.",
+    "stat": [ "Hit Speed: 1.1 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: 6.5 radius",
+              "Target: Air & Ground",
+              "Elixar Cost: 4"
+            ] 
+  },
+  {
+    "name":"Princess",
+    "combo": "RocketCard",
+    "cname": "Rocket",
+    "rare" : "Rare",
+    "shortname":"Princess",
+    "reknown":"Legendary",
+    "bio":"Shoots a volley of flaming arrows halfway across the Arena. The Princess is afraid of germs, so keep the rabble away from her!",
+    "stat": [ "Hit Speed: 3 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: 9.5 radius",
+              "Target: Air & Ground",
+              "Elixar Cost: 3"
+            ] 
+  },
+  {
+    "name":"Skeleton Army",
+    "combo": "TombstoneCard",
+    "cname": "Tombstone",
+    "rare" : "Common",
+    "shortname":"Skeleton_Army",
+    "reknown":"Epic",
+    "bio":"Summons an army of skeletons. Meet Larry and his friends Harry, Gerry, Terry, Mary, etc.",
+    "stat": [ "Hit Speed: 1 sec",
+              "Speed: Fast",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Ground",
+              "Elixar Cost: 4"
+            ] 
+  },
+  {
+    "name":"Valkyrie",
+    "combo": "X-BowCard",
+    "cname": "X-Bow",
+    "rare" : "Epic",
+    "shortname":"Valkyrie",
+    "reknown":"Rare",
+    "bio":"Tough melee fighter, deals area damage around her. Swarm or horde, no problem! She can take them all out with a few spins.",
+    "stat": [ "Hit Speed: 1.5 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: Melee",
+              "Target: Ground",
+              "Elixar Cost: 4"
+            ] 
+  },
+  {
+    "name":"Wizard",
+    "combo": "ZapCard",
+    "cname": "Zap",
+    "rare" : "Epic",
+    "shortname":"Wizard",
+    "reknown":"Rare",
+    "bio":"The most awesome man to ever set foot in the arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
+    "stat": [ "Hit Speed: 1.7 sec",
+              "Speed: Medium",
+              "Deploy Time: 1 sec",
+              "Range: 5.5 radius",
+              "Target: Air & Ground",
+              "Elixar Cost: 5"
+            ] 
+  }
+]

@@ -1,0 +1,21 @@
+<!-- This partial will show the best combination card deck -->
+<section class="artistinfo">
+  	<div class="artist cf" ng-model="artists">
+  		<h1>Combination Cards</h1>
+    <input id="open" type="image" ng-src="images/Wooden_Chest.png" ng-click="showCombo=true"/>
+   	</div>
+    <ul class="combolist" ng-if="showCombo">
+    	<li class="artist cf" ng-repeat="item in artists">
+    		<a href="#/details/{{artists.indexOf(item)}}">
+        <img ng-src="images/{{item.combo}}.png" alt="Photo of {{item.name}}">
+        <div class="info">
+          <h2>{{item.cname}}</h2>
+          <h3>{{item.rare}}</h3>
+          <p>is best with: </p> </br>
+            <img ng-src="images/{{item.shortname}}_tn.png" alt="Photo of {[item.cname}}">
+        </div>
+      </a>
+  </li>
+  	</ul>
+  <a href="index.html">&laquo; back to search</a>
+</section>

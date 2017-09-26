@@ -1,0 +1,26 @@
+<!-- this partial shows the detail of the cards -->
+<section class="artistinfo">
+  <div class="artist cf" ng-model="artists">
+    <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+    <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+    <h1>{{artists[whichItem].name}}</h1>
+    <div class="info">
+      <h3>{{artists[whichItem].reknown}}</h3>
+      <img ng-src="images/{{artists[whichItem].shortname}}_tn.png" alt="Photo of {{artists[whichItem].name}}">
+        <div class="bio">{{artists[whichItem].bio}}</div>
+        <!-- When button is clicked, the statistic of the card will show -->
+        <input id="open" type="image" ng-src="images/freechest.png" ng-click="showCombo=true"/>
+        </div>
+        <div ng-if="showCombo">
+          <div class="cardlist combio">
+            <p>Statistics:</p>
+             <ul>
+               <li ng-repeat="item in artists[whichItem].stat">{{item}}</li>
+             </ul>
+           </div>
+        </div>
+  </div>
+  <!-- navigates to the combination partial -->
+  <a href="#/combo/{{artists[whichItem]}}">&raquo; show combo</a></br>
+  <a href="index.html">&laquo; back to search</a>
+</section>
